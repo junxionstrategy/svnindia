@@ -1,0 +1,258 @@
+v.1.1.4 (Feb 09, 2014)
+Imporved the logo in Chrome.
+Fixed sticky header when user enable the adminbar.
+Added skype to contact details widget.
+Added the turn off the sticky header for mobile.
+Added orderby custom for WPML languages.
+Added caption link support.
+
+edited: style.css
+edited: js/theme-init.js
+edited: css/skin-blue.css
+edited: css/skin-red.css
+edited: css/skin-green.css
+edited: theme/themewoot.php
+edited: theme/classes/class-query.php
+edited: theme/classes/class-theme-generator.php
+edited: theme/functions/function-frontend.php
+edited: theme/wpml/wpml.php
+added: theme/widgets/contact-details.php
+
+
+
+v1.1.3 (Jan 14, 2014)
+Improved the drop menu.
+Fixed the pagination issue on static page.
+Fixed search page issue.
+Added html support for topbar.
+Added deviantart for social icon.
+
+
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/classes/class-query.php
+edited: theme/classes/class-theme-generator.php
+edited: theme/options/theme_opt.php
+edited: theme/functions/function-backend.php
+edited: js/theme-init.js
+edited: search.php
+edited: plugins/LayerSlider.zip
+
+
+
+v1.1.2 (Dec 23, 2013)
+--Added author meta in blog.
+--Added pagin switch in blog shortcode.
+--Fixed topbar bug on Chrome.
+
+edited: header.php
+edited: search.php
+edited: single.php
+edited: css/responsive.css
+edited: css/skin-blue.css
+edited: css/skin-red.css
+edited: css/skin-green.css
+edited: style.css
+edited: theme/themewoot.php
+edited: templates/content/loop-blog.php
+edited: theme/classes/class-theme-generator.php
+edited: theme/classes/class-template-blog.php
+edited: theme/classes/class-template-carousel.php
+edited: theme/classes/class-template-faq.php
+edited: theme/classes/class-template-grid.php
+edited: theme/classes/class-template-list.php
+edited: theme/classes/class-template-related-posts.php
+edited: theme/functions/function-backend.php
+edited: theme/shortcodes/latest-blog.php
+edited: theme/shortcodes/testimonial.php
+edited: theme/shortcodes/testimonial-carousel.php
+edited: theme/js-composer/map.php
+edited: theme/assets/css/theme-options.css
+
+
+
+
+v1.1.1 (Dec 13, 2013)
+--Fixed the term filter issue on wordpress 3.8.
+--Imporoved the theme options style.
+--Updated layerslider to version 4.6.6.
+
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/classes/class-template-grid.php
+edited: theme/assets/css/theme-options.css
+edited: plugins/LayerSlider.zip
+
+
+
+
+v1.1.0 (Dec 10, 2013)
+--Updated the icon fonts.
+--Improved the drop menu.
+--Improved the fixed header.
+--Improved post slider js.
+--Added height options for logo.
+
+
+edited: header.php
+edited: footer.php
+edited: style.css
+edited: js/theme-init.js
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+edited: theme/functions/function-frontend.php
+edited: theme/js-composer/js-composer.php
+edited: theme/classes/class-theme-generator.php
+edited: theme/options/theme_opt.php
+edited: theme/functions/custom-css.php
+edited: theme/shortcodes/post-slider.php
+edited: css/icon-fonts.css
+edited: fonts/elusive.eot
+edited: fonts/elusive.svg
+edited: fonts/elusive.ttf
+edited: fonts/elusive.woff
+edited: fonts/entypo.eot
+edited: fonts/entypo.svg
+edited: fonts/entypo.ttf
+edited: fonts/entypo.woff
+edited: fonts/font-awesome.eot
+edited: fonts/font-awesome.svg
+edited: fonts/font-awesome.ttf
+edited: fonts/font-awesome.woff
+edited: fonts/fontello.eot
+edited: fonts/fontello.svg
+edited: fonts/fontello.ttf
+edited: fonts/fontello.woff
+edited: fonts/linecons.eot
+edited: fonts/linecons.svg
+edited: fonts/linecons.ttf
+edited: fonts/linecons.woff
+edited: fonts/typicons.eot
+edited: fonts/typicons.svg
+edited: fonts/typicons.ttf
+edited: fonts/typicons.woff
+edited: fonts/zocial.eot
+edited: fonts/zocial.svg
+edited: fonts/zocial.ttf
+edited: fonts/zocial.woff
+
+
+
+
+v1.0.9 (Nov 28, 2013)
+--Improved the query function for tax posts.
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+edited: theme/functions/function-common.php
+
+
+
+v1.0.8 (Nov 27, 2013)
+--Improved the testimonial carousel query.
+--Added page builder support for single page.
+--Fixed the Mod_Security of theme options on some server.
+edited: style.css
+edited: theme/themewoot.php
+edited: functions.php
+edited: template-builder.php
+edited: template-builder-side.php
+edited: theme/classes/class-backend-scripts.php
+edited: theme/functions/function-frontend.php
+added: theme/shortcodes/testimonial-carousel.php
+
+
+
+v1.0.7 (Nov 21, 2013)
+--Improved the visual composer support.
+--Improved the post format.
+edited: style.css
+edited: theme/themewoot.php
+edited: functions.php
+edited: templates/content/format-standard.php
+
+
+
+v1.0.6 (Nov 16, 2013)
+--Improved the admin page with 404 error on some hosting.
+--Improved the video shortcodes.
+--Added options for changing the icons for topbar text.
+edited: style.css
+edited: theme/themewoot.php
+edited: functions.php
+edited: theme/classes/class-theme-generator.php
+edited: theme/options/theme_opt.php
+
+
+
+v1.0.5 (Nov 14, 2013)
+--Improved the script output needed.
+--Improved the responsive menu.
+edited: style.css
+edited: css/responsive.css
+edited: theme/themewoot.php
+edited: functions.php
+edited: header.php
+edited: theme/classes/class-checked.php
+edited: theme/classes/class-theme-generator.php
+edited: theme/functions/function-frontend.php
+edited: theme/functions/function-backend.php
+edited: theme/options/theme_opt.php
+edited: theme/functions/custom-css.php
+edited: js/theme-init.js
+
+
+
+v1.0.4 (Nov 11, 2013)
+--Improved the data for installation.
+--Improved responsive view.
+--Added height and sticky height options.
+edited: style.css
+edited: css/fonts.css
+edited: css/skin-blue.css
+edited: css/skin-red.css
+edited: css/skin-green.css
+edited: css/responsive.css
+edited: theme/themewoot.php
+edited: theme/functions/custom-css.php
+edited: theme/options/theme_font.php
+edited: theme/options/theme_opt.php
+edited: theme/options/theme_skin.php
+edited: theme/classes/class-theme-generator.php
+
+
+v1.0.3 (Nov 10, 2013)
+--Added selection color in custom css.
+--Added images in demo site xml.
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/functions/custom-css.php
+
+
+v1.0.2(Nov 08, 2013)
+--Improved the children menu.
+--Improved the layer slider css.
+--Added Envato WordPress Toolkit plugin for updating theme from themeforest.
+
+edited: style.css
+edited: js/theme-init.js
+edited: css/icon-fonts.css
+edited: css/blue.css
+edited: css/green.css
+edited: css/red.css
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+edited: theme/functions/custom-css.php
+added: plugins/envato-wordpress-toolkit.zip
+
+
+v1.0.1(Nov 07, 2013)
+--Updated the twoot toolkit plugin.
+--Fixed the quick contact form issue on ipad.
+
+edited: style.css
+edited: plugins/twoot-toolkit.zip
+
+
+v1.0.0(Nov 07, 2013)
+--Initial Release 

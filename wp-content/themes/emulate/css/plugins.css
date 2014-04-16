@@ -1,0 +1,117 @@
+/*SF Menu*/
+.sf-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sf-menu li {
+	position: relative;
+}
+.sf-menu ul {
+	position: absolute;
+	display: none;
+	z-index: 999;
+}
+.sf-menu > li {
+	float: left;
+}
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+	display: block;
+}
+
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+
+
+
+
+
+/*Bx Slider*/
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	*zoom: 1; 
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+
+.bx-wrapper .bx-viewport { overflow: hidden; }
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {}
+
+.bx-wrapper .bx-loading { display: none; }
+
+.bx-wrapper .bx-pager {}
+.bx-wrapper .bx-pager .bx-pager-item {}
+.bx-wrapper .bx-pager.bx-default-pager a {}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {}
+
+.bx-wrapper .bx-prev {}
+.bx-wrapper .bx-next {}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	outline: 0;
+	z-index: 666;
+	display: block;
+}
+.bx-wrapper .bx-controls-direction a.disabled {display: none;}
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+}
+
+
+
+
+
+/*IsoTope*/
+.isotope-item {
+    z-index: 2;
+    display: block !important;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: top, left, opacity;
+    transition-property: transform, opacity;
+}
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}

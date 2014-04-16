@@ -1,0 +1,399 @@
+/*Common For Max 960*/
+@media only screen and (max-width: 1199px) {
+
+	/*Common*/
+	.inner {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.outer {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	.rows .four,
+	.has-sidebar .rows .four { width: 33%; }
+
+	/*Header*/
+	.site-page-header .entry-header .inner { margin-left: 0; }
+}
+
+
+
+/*Common For Max 768*/
+@media only screen and (max-width: 959px) {
+
+	/*Header*/
+	#top-menu { display: none; }
+	.responsive-menu-switch-wrap { display: block; }
+
+	/*Footer*/
+	#bottom-copy,
+	#bottom-menu {
+		float: none;
+		text-align: center; 
+	}
+
+	#bottom-menu {
+		margin-top: 20px;
+	}
+}
+
+
+
+/*Common For Max 480*/
+@media only screen and (max-width: 767px) {
+
+	/*Common*/
+	#primary-wrapper.eight,
+	#secondary.four {
+		float: none;
+		width: 100%;
+	}
+
+	.sidebar-right {
+		margin-top: 80px;
+	}
+
+	.sidebar-left {
+		margin-bottom: 80px;
+	}
+
+	.sidebar-right .inner { 
+		padding-left: 0;
+	}
+
+	.sidebar-left .inner { 
+		padding-right: 0;
+	}
+
+	.pagination .pagin.six,
+	.pagination .next.three,
+	.pagination .prev.three { 
+		width: 100%;
+		text-align: center; 
+	}
+
+	.quick-contact-wrapper {
+		display: none;
+	}
+
+	/*Header*/
+	.site-topbar { 
+		height: auto; 
+	}
+
+	.topbar-left,
+	.topbar-right { 
+		float: none; 
+		width: 100%; 
+		text-align: center; 
+	}
+
+	.topbar-right .topbar-right-inner { 
+		border-right:none; 
+	}
+
+	.top-social-icons a,
+	.top-search-bt,
+	.wpml-language-switcher .actived-language a { border: none; }
+
+	.top-text span {
+		padding: 0 15px;
+	}
+
+	.site-page-header .entry-header h1.entry-title,
+	.site-page-header .entry-header .breadcrumbs {
+		float: none;
+		text-align: center;
+		height: auto;
+		line-height: 1.8;
+		padding: 10px 0;
+	}
+
+	.site-page-header .entry-header h1.entry-title .icon {
+		display: none;
+	}
+
+	.site-page-header .entry-desc {
+		text-align: center; 
+	}
+
+	.site-page-header .entry-header .inner { margin: 0; }
+
+
+	/*Footer*/
+	#bottom-menu ul li {
+		display: block;
+	}
+
+
+	/*Portfolio*/
+	.the-grid-list ul.filter li {
+		display: block;
+		margin-bottom: 2px;
+	}
+
+	.the-grid-list ul.filter li a {
+		background: #F2F2F2;
+		color: #696969;
+	}
+
+	.post-portfolio .half.eight,
+	.post-portfolio .half.four,
+	.post-portfolio .full.eight,
+	.post-portfolio .full.four {
+		width: 100%;
+	}
+
+	.post-portfolio .half .half-content,
+	.post-portfolio .full .full-excerpt {
+		margin-left: 10px;
+		margin-top: 40px;
+	}
+
+
+	/*Blog*/
+	.post-blog .entry-meta {
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	.post-blog .entry-content {
+		margin-left: 0;
+	}
+
+
+	/*Comment*/
+	.commentlist li.comment ul.children {
+		padding-left: 0;
+	}
+
+
+	/*Shortcodes*/
+	.the-faq-list .filter-menu {
+		margin-bottom: 40px;
+	}
+
+	.the-faq-list .filter-menu ul {
+		margin-right: 0;
+	}
+
+	.the-faq-list .eight,
+	.the-faq-list .four {
+		float: none;
+		width: 100% !important;
+	}
+
+	.shortcode-columns .column {
+		margin-bottom: 40px;
+	}
+
+	.shortcode-columns .column:last-child {
+		margin-bottom: 0;
+	}
+
+	.shortcode-testimonials li .avatar {
+		float: none;
+		margin: 0 auto 30px;
+	}
+
+	.shortcode-testimonials li .content.has-avatar {
+		margin-left: 0;
+	}
+
+	.shortcode-testimonial-carousel .bx-wrapper .bx-pager {
+		left: 42px;
+	}
+
+}
+
+
+/*Common For Max 320*/
+@media only screen and (max-width: 479px) {
+
+	/*Common*/
+	.rows .one,
+	.rows .two,
+	.rows .three,
+	.rows .four,
+	.rows .five,
+	.rows .six,
+	.rows .seven,
+	.rows .eight,
+	.rows .nine,
+	.rows .ten,
+	.rows .eleven,
+	.rows .twelve,
+	.has-sidebar .rows .three,
+	.has-sidebar .rows .four,
+	.has-sidebar .rows .six { width: 100%; }
+
+	.wpml-language-switcher { width: 101px; }
+
+}
+
+
+
+/*960*/
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+	/*Comment*/
+	#respond #commentform input[type="text"],
+	#respond #commentform textarea {
+		width: 640px;
+	}
+
+	/*Contact Page*/
+	.contact-page .wpcf7 .text-wrap .wpcf7-text,
+	.contact-page .wpcf7 .text-wrap .wpcf7-textarea {
+		width: 640px;
+	}
+
+	.contact-page .wpcf7 span.wpcf7-not-valid-tip {
+		width: 620px;
+	}
+
+	/*Post List*/
+	.the-carousel-list li.post-item { 
+		width: 235px !important; 
+		margin-right: 20px !important;
+	}
+
+}
+
+
+
+/*768*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	/*Comment*/
+	#respond #commentform input[type="text"],
+	#respond #commentform textarea {
+		width: 470px;
+	}
+
+	/*Contact Page*/
+	.contact-page .wpcf7 .text-wrap .wpcf7-text,
+	.contact-page .wpcf7 .text-wrap .wpcf7-textarea {
+		width: 470px;
+	}
+
+	.contact-page .wpcf7 span.wpcf7-not-valid-tip {
+		width: 450px;
+	}
+
+	/*Post List*/
+	.the-carousel-list li.post-item { 
+		width: 172px !important; 
+		margin-right: 20px !important;
+	}
+
+}
+
+
+
+/*480*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/*Common*/
+	.rows .two,
+	.rows .three,
+	.rows .four,
+	.rows .six,
+	.rows .eight,
+	.rows .nine,
+	.has-sidebar .rows .three,
+	.has-sidebar .rows .four,
+	.has-sidebar .rows .six { width: 50%; }
+
+	/*Comment*/
+	#respond #commentform input[type="text"],
+	#respond #commentform textarea {
+		width: 440px;
+	}
+
+	/*Contact Page*/
+	.contact-page .wpcf7 .text-wrap .wpcf7-text,
+	.contact-page .wpcf7 .text-wrap .wpcf7-textarea {
+		width: 440px;
+	}
+
+	.contact-page .wpcf7 span.wpcf7-not-valid-tip {
+		width: 420px;
+	}
+
+	/*Post List*/
+	.the-carousel-list li.post-item { 
+		width: 220px !important; 
+		margin-right: 20px !important; 
+	}
+
+	.quick-contact-wrapper .wpcf7-text,
+	.quick-contact-wrapper .wpcf7-textarea {
+		padding: 8px 5px;
+		width: 380px;
+	}
+}
+
+
+
+/*320*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+	/*Comment*/
+	#respond #commentform input[type="text"],
+	#respond #commentform textarea {
+		width: 280px;
+	}
+
+	/*Contact Page*/
+	.contact-page .wpcf7 .text-wrap .wpcf7-text,
+	.contact-page .wpcf7 .text-wrap .wpcf7-textarea {
+		width: 280px;
+	}
+
+	.contact-page .wpcf7 span.wpcf7-not-valid-tip {
+		width: 260px;
+	}
+
+	/*Post List*/
+	.the-carousel-list li.post-item { 
+		width: 300px !important; 
+	}
+
+	.quick-contact-wrapper .wpcf7-text,
+	.quick-contact-wrapper .wpcf7-textarea {
+		padding: 8px 5px;
+		width: 220px;
+	}
+
+}
+
+
+
+/*240*/
+@media only screen and (max-width: 319px) {
+
+	/*Comment*/
+	#respond #commentform input[type="text"],
+	#respond #commentform textarea {
+		width: 200px;
+	}
+
+	/*Contact Page*/
+	.contact-page .wpcf7 .text-wrap .wpcf7-text,
+	.contact-page .wpcf7 .text-wrap .wpcf7-textarea {
+		width: 200px;
+	}
+
+	.contact-page .wpcf7 span.wpcf7-not-valid-tip {
+		width: 180px;
+	}
+
+	.quick-contact-wrapper .wpcf7-text,
+	.quick-contact-wrapper .wpcf7-textarea {
+		padding: 8px 5px;
+		width: 140px;
+	}
+
+}

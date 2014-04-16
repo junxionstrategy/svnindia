@@ -1,0 +1,154 @@
+#logo h1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#logo img {
+	height: 40px;
+}
+#top-menu ul li a {
+	padding-top: 34px;
+	padding-bottom: 34px;
+}
+#top-menu ul li ul {
+	width: 180px;
+}
+#top-menu ul li.fixed ul ul {
+	left: -182px;
+}
+.responsive-menu-switch-wrap {
+	padding-top: 22.5px;
+	padding-bottom: 22.5px;
+}
+.is-sticky #logo h1 {
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+}
+.is-sticky #logo img {
+	height: 25px;
+}
+.is-sticky #top-menu > ul > li > a {
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+.is-sticky .responsive-menu-switch-wrap {
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+}
+body,
+button, input, select, textarea { 
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+#top-menu ul li a,
+.responsive-menu ul li a {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#top-menu ul li ul li a,
+.responsive-menu ul li ul li a {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h1 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	font-size: 3rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h2 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h3 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h4 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h5 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h6 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: normal;
+	text-transform: none;
+}
+.the-grid-list ul.filter li a,
+.the-faq-list ul.filter li a {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: normal;
+	text-transform: none;
+}
+.pagination,
+.comment-pagination,
+.post-pagenation ul li a,
+.single-navigation {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#bottom-menu ul li a {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.site-footer .site-copy {
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: normal;
+	text-transform: none;
+}
+.widget h3 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: normal;
+	text-transform: none;
+}
+.item-title {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.section-title,
+#comments #comments-title,
+#respond #reply-title {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: normal;
+	text-transform: none;
+}
+body {  background: #FFFFFF }
+
+

@@ -1,0 +1,629 @@
+/* #Content
+================================================== */
+body,
+button, input, select, textarea { 
+	font-family: Arial, Helvetica, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.button-small {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.button-medium {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+.button-large {
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+.button-active {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+
+
+
+
+/* #Logo
+================================================== */
+#logo h1 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 48px;
+	font-size: 4.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px; 
+	letter-spacing: 0.3rem; 
+}
+
+
+
+/* #Navigation
+================================================== */
+
+/*Menu*/
+#top-menu ul li a,
+.responsive-menu ul li a {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight:normal;
+	font-style:normal;
+	text-transform: uppercase;
+}
+
+#top-menu ul li ul li a,
+.responsive-menu ul li ul li a {
+	font-family: Arial, Helvetica, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight:normal;
+	font-style:normal;
+	text-transform: none;
+}
+
+
+
+/*Page Header*/
+.site-page-header h1.entry-title {
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.site-page-header .entry-header .breadcrumbs {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.site-page-header .entry-desc {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+
+
+
+/* #Hgroup
+================================================== */
+h1 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 30px;
+	font-size: 3.0rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h2 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h3 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h4 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h5 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h6 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+
+
+/* #Footer
+================================================== */
+.site-footer .site-copy {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	text-transform: none;
+}
+
+#bottom-menu ul li a {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight:normal;
+	font-style:normal;
+	text-transform: uppercase;
+}
+
+.quick-contact-wrapper .quick-contact .lable {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.quick-contact-wrapper .quick-contact h3 {
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+
+
+
+/* #Widgets
+================================================== */
+.widget h3 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.widget-blog li .post-entry .title,
+.widget-portfolio li .post-entry .title {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.widget-post li .post-entry .date {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+
+
+
+/* #Shortcodes
+================================================== */
+
+/*Common*/
+code,
+.shortcode-pre .code {
+	font-family: 'Consolas', 'Monaco', 'Courier', serif;
+	line-height: 1.5;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+
+
+/*Latest Blog*/
+.shortcode-latest-blog li .entry-content .title {
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.shortcode-latest-blog li .entry-date span.day {
+	font-size: 28px;
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+
+.shortcode-latest-blog li .entry-date span.month {
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.shortcode-latest-blog li .entry-content .meta {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.shortcode-latest-blog li .entry-content .more {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+
+
+/*Price Table*/
+.shortcode-price-table .price {
+	font-size: 28px;
+	font-size: 2.8rem;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.shortcode-price-table h3.title {
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.shortcode-price-table .sub-price,
+.shortcode-price-table .time {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.shortcode-price-table .time {
+	font-weight: normal;
+	font-style: normal;
+}
+
+.shortcode-price-table .button {
+	font-weight: bold;
+}
+
+
+
+/*Accordion & Toggle*/
+.shortcode-accordion .acc-item .tog,
+.shortcode-toggle .tog-item .tog {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+
+
+/*Message boxes*/
+.shortcode-message-box {
+	font-weight: bold;
+}
+
+
+
+/*Icon Boxes*/
+.shortcode-icon-box .item-title {
+	font-size: 20px;
+	font-size: 2.0rem;
+}
+
+.shortcode-icon-box .item-content .link {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+
+
+/*Feature Services*/
+.shortcode-feature-service .item-title {
+	font-size: 20px;
+	font-size: 2.0rem;
+}
+
+.shortcode-feature-service .item-content .link {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+
+
+/*Number*/
+.shortcode-number .item-content .count {
+	font-size: 30px;
+	font-size: 3.0rem;
+	font-weight: bold;
+}
+
+
+
+/*Progress Bar*/
+.shortcode-progress-bar .title {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.shortcode-progress-bar .percentage-text {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+
+
+/*Team Members*/
+.shortcode-team-member .name {
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.shortcode-team-member .role {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+
+
+/*Testimonial*/
+.shortcode-testimonials li .name {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.shortcode-testimonials li .role {
+	font-size: 10px;
+	font-size: 1.0rem;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+
+
+/*Title*/
+.shortcode-title {
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+
+
+
+
+/* #Post List
+================================================== */
+
+/*Grid*/
+.the-grid-list ul.filter li a {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.the-grid-list ul li.item .item-head h3.title {
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.the-grid-list ul li.item .item-head .desc {
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.4;
+}
+
+
+
+
+/*Post*/
+.the-post-list ul li.item .item-head h3.title {
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.the-blog-post li.item .item-head .meta {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+
+
+
+/*Post Carousel & Related Posts & Comment*/
+.section-title,
+#comments #comments-title,
+#respond #reply-title {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.the-blog-carousel li.item .item-head .date {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.related-posts li .entry-meta .title {
+	font-weight: bold;
+}
+
+.related-posts li .entry-meta .date,
+.related-posts li .entry-meta .cats {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.commentlist .comment-header .meta {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.commentlist .comment-header .fn {
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.commentlist .comment-header .reply-link a {
+	font-size: 11px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#respond #commentform input[type="submit"] {
+	font-weight: bold;
+}
+
+
+
+
+/*Faqs*/
+.the-faq-list ul.filter li a {
+	font-weight: bold;
+}
+
+.the-faq-list ul.filter li span {
+	font-size: 10px;
+	font-size: 1.0rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+/*Post Blog*/
+.post-blog .entry-meta {
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.post-blog .entry-content .entry-title {
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.post-blog .entry-content .entry-sub {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+
+
+/*Post Portfolio*/
+.post-portfolio h1.entry-title {
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.post-portfolio .entry-meta .client-url .button {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+
+
+
+
+/* #Pagination
+================================================== */
+.pagination,
+.comment-pagination,
+.post-pagenation ul li a {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+.single-navigation {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+
+
+
+
+
+/* #Contact Page
+================================================== */
+.contact-page .wpcf7 .text-wrap .lable {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.contact-page .wpcf7-submit {
+	font-weight: bold;
+}
+
+
+
+
+
+
+/* #Coming soon Page
+================================================== */
+#page-coming-soon .countdown .title {
+	text-transform: uppercase;
+	font-size: 32px;
+	font-size: 3.2rem;
+	font-weight: bold;
+}
+
+#page-coming-soon .countdown .clock .text {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+#page-coming-soon .countdown .clock .time  {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-size: 3.2rem;
+	line-height: 1.2;
+}
+
+
+
+
+
+/* #Search
+================================================== */
+.post-search ul li.post-item .entry-title {
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+
+
+
+
+
+/* #Post Archive
+================================================== */
+.post-archive ul li.post-item .entry-meta .title {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.post-archive ul li.post-item .entry-meta .meta {
+	font-size: 12px;
+	font-size: 1.2rem;
+}

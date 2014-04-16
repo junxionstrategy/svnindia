@@ -1,0 +1,94 @@
+/*The below is the custom css, if you don't need, please delete them.*/
+
+.wpb-product-launch-area h2,
+.wpb-product-launch-area h3,
+.wpb-product-launch-area .shortcode-icon {
+	color: #FFF;
+}
+
+.wpb-product-launch-area h3 {
+	font-weight: bold;
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-bottom: 10px;
+}
+
+.wpb-product-launch-area .shortcode-icon {
+	font-size: 22px;
+}
+
+.wpb-product-launch-area .button {
+	font-weight: bold;
+}
+
+.wpb-product-launch-area .button-dark {
+	background: #0AAEDD;
+	color: #FFF;
+}
+
+.wpb-product-launch-area .button-light {
+	border-color: #FFF;
+	color: #FFF;
+}
+
+.wpb-product-launch-area .button-dark:hover {
+	background: #FFF;
+	color: #0EC3F7;
+}
+
+.wpb-product-launch-area .button-light:hover {
+	background: #FFF !important;
+	border-color: #FFF;
+	color: #0EC3F7;
+}
+
+.wpb-why-choose-us h2,
+.wpb-why-choose-us h3,
+.wpb-why-choose-us .shortcode-icon { 
+	color: #FFF; 
+}
+
+.wpb-why-choose-us h2,
+.wpb-why-choose-us h3,
+.wpb-why-choose-us .wpb-left-text {
+	padding: 0 50px;
+}
+
+.wpb-why-choose-us .wpb-left-text {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.wpb-latest-works h2 {
+	color: #FFF;
+}
+
+.wpb-twitter strong,
+.wpb-twitter .shortcode-twitter-carousel a {
+	color: #FFF;
+}
+
+.wpb-twitter .shortcode-twitter-carousel ul {
+	font-size: 18px;
+}
+
+.wpb-twitter .shortcode-twitter-carousel a:hover {
+	text-decoration: underline;
+}
+
+.wpb-client {
+	border-top: 1px solid #E2E2E2;
+	text-align: center;
+}
+
+.wpb-client-column {
+	background: #F2F2F2;
+}
+
+.wpb-client-text {
+	padding: 0 25px;
+}
+
+.wpb-team h2 { 
+	color: #FFF; 
+}
